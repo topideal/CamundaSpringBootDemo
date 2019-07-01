@@ -144,7 +144,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<maimClass>org.camunda.bpm.demo.DmeoApplication</maimClass>
+					<mainClass>org.camunda.bpm.demo.DemoApplication</mainClass>
 				</configuration>
 				<executions>
 					<execution>

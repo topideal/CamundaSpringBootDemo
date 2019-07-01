@@ -16,7 +16,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:7061/eureka/
+      defaultZone: http://192.168.101.135:10087/eureka/
   instance:
       prefer-ip-address: true
       status-page-url-path: /swagger-ui.html
@@ -28,9 +28,9 @@ spring:
     application-path: /engine-rest 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/camunda_demo?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useOldAliasMetadataBehavior=true
-    username: root
-    password: 123456
+    url: jdbc:mysql://db.mis-nz.com:3306/camunda_demo?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&useOldAliasMetadataBehavior=true
+    username: misnz
+    password: david@2017David
     tomcat:
       max-idle: 10
       max-wait: 10000
